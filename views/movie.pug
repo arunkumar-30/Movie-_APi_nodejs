@@ -1,0 +1,20 @@
+html
+  head
+    title Simple API Application
+    h1 Welcome To Movie Application
+  style
+   include ../css/index.css
+  body      
+      form(action = "/", method = "POST")
+         input(name = "id" placeholder = "Enter Movie Id")
+         br      
+         input(name = "name" placeholder = "Enter Movie Name")      
+         br      
+         input(name = "year" placeholder = "Enter Movie Year")      
+         br      
+         input(name = "rating" placeholder = "Enter Movie Rating")      
+         br      
+         button(type = "submit") Submit MovieDetails      
+            
+      
+      
